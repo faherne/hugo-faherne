@@ -14,7 +14,7 @@ URL = "s3://hugo-faherne/?region=eu-west-1" #your bucket here
 
 [params]
   favicon = "/images/Favicon Transparent.ico"
-  site_logo = "/images/Original Logo.png"
+  site_logo = "/images/Transparent Logo.png"
   description = "Tech Blog"
   twitter = "https://twitter.com/faherne"
   github = "https://github.com/faherne/"
