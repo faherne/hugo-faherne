@@ -1,26 +1,51 @@
 baseURL = "http://hugo-faherne.s3-website-eu-west-1.amazonaws.com/"
 languageCode = "en-us"
 title = "Faherne's Blog"
-theme = "ananke"
+theme = "hugo-whisper-theme"
 [[deployment.targets]]
 # An arbitrary name for this target.
 name = "awsbucket"
 URL = "s3://hugo-faherne/?region=eu-west-1" #your bucket here
 
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Docs"
+    url = "/docs/"
+    weight = 2
 
 [params]
-  favicon = "/images/Favicon Transparent.ico"
-  site_logo = "/images/Transparent Logo.png"
-  description = "Tech Blog"
-  twitter = "https://twitter.com/faherne"
-  github = "https://github.com/faherne/"
-  linkedin = "https://www.linkedin.com/in/finbarr-aherne-b9059212/"
-  rss = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
-  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-  recent_posts_number = 2theme = "whisper"
+  google_analytics_id=""
+  homepage_button_link = '/docs'
+  homepage_button_text = 'Read The Docs'
+  homepage_intro = 'Tech Blog'
+  homepage_image = '/images/terminal.gif'
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "Hugo Whisper is a documentation theme built with Hugo."
+    meta_og_title = "Hugo Whisper Theme"
+    meta_og_type = "website"
+    meta_og_url = "https://hugo-whisper.netlify.app"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_description = "Tech Blog"
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@faherne"
+    meta_twitter_creator = "@faherne"
+
+  [params.logo]
+      mobile = "/images/Original Logo.svg"
+      standard  = "/images/Original Logo.svg"
