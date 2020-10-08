@@ -1,8 +1,8 @@
 baseURL = "http://hugo-faherne.s3-website-eu-west-1.amazonaws.com/"
 languageCode = "en-us"
-title = "FAherne's Hugo AWS CD"
+title = "Faherne's Blog"
 theme = "ananke"
 [[deployment.targets]]
 # An arbitrary name for this target.
 name = "awsbucket"
-URL = "s3://hugo-faherne/?region=eu-west-1" #your bucket here
+URL = "s3://hugo-faherne/?region=eu-west-1" #your bucket hereignore
