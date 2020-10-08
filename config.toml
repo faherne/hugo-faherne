@@ -36,11 +36,11 @@ summaryLength = 30
   # enable_anchor_link = true
 
   [params.homepage_meta_tags]
-    meta_description = "Hugo Whisper is a documentation theme built with Hugo."
-    meta_og_title = "Hugo Whisper Theme"
+    meta_description = "Finbarr's blog built on Hugo with Whisper Theme"
+    meta_og_title = "Finbarr's Blog"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-whisper.netlify.app"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_url = "http://hugo-faherne.s3-website-eu-west-1.amazonaws.com/"
+    meta_og_image = "/images/Transparent Logo.png"
     meta_og_description = "Tech Blog"
     meta_twitter_card = "summary"
     meta_twitter_site = "@faherne"
