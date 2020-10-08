@@ -5,7 +5,7 @@ theme = "whisper"
 [[deployment.targets]]
 # An arbitrary name for this target.
 name = "awsbucket"
-URL = "s3://hugo-faherne/?region=eu-west-1" #your bucket here
+URL = "s3://faherne.com/?region=eu-west-1" #your bucket here
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
