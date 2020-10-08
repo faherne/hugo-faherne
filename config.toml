@@ -5,4 +5,22 @@ theme = "ananke"
 [[deployment.targets]]
 # An arbitrary name for this target.
 name = "awsbucket"
-URL = "s3://hugo-faherne/?region=eu-west-1" #your bucket hereignore
+URL = "s3://hugo-faherne/?region=eu-west-1" #your bucket here
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = "/images/Favicon Transparent.ico"
+  site_logo = "/images/Original Logo.png"
+  description = "Tech Blog"
+  twitter = "https://twitter.com/faherne"
+  github = "https://github.com/faherne/"
+  linkedin = "https://www.linkedin.com/in/finbarr-aherne-b9059212/"
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  recent_posts_number = 2
